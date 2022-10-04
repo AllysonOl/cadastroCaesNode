@@ -1,0 +1,24 @@
+<div class="cab">
+<h1>Lista de cães <span class="edic"><h5>Clique no <span class="ID"> ID</span> para Editar</h5></span> </h1>
+<a href="/">Voltar</a>
+</div>
+
+<div class="caes-container">
+  
+  {{#each caes}}
+  <div class="lista">
+    <br>
+    <div class="idt">
+        <button><a href="/caes/{{this.id}}">ID- {{this.id}}  </a></button> 
+    </div>
+    <div class="data">
+    <h4>PORTE: <span class="spn">{{this.porte}}</span></h4><hr>
+    <h4>COR: <span class="spn">{{this.cor}}</span></h4><hr>
+    <h4>CIDADE: <span class="spn">{{this.municipio}}</span> </h4><hr>
+    <h4>BAIRRO: <span class="spn">{{this.bairro}}</span> </h4><hr>
+    <h4>REFERENCIA: <span class="spn">{{this.região}}</span></h4>
+    </div>
+  </div>
+  {{/each}}
+</div>
+

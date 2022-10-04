@@ -1,0 +1,53 @@
+
+<button><a href="/caes/">Voltar</a></button>
+<button><a href="/">Página Inicial</a></button>
+<h1>Edite os dados do cão abandonado/perdido:</h1>
+  <h2>Não encontrou os dados por lá? coloque aqui</h2>
+
+  <form action="/caes/updatecao" method="POST" class="form">
+  <input type="hidden" name="id" value="{{cao.id}}">
+  
+  <form action="/caes/" method="POST" class="container">
+<div class="form-home">
+  
+  <h3>Cor:</h3>
+  <select name="cor">
+    <option name="cor">caramelo</option>
+    <option name="cor">branco</option>
+    <option name="cor">preto</option>
+    <option name="cor">cinza</option>
+    <option name="cor">malhado</option>
+  </select>
+ 
+  <h3>Porte:</h3>
+    <select name="porte">
+    <option>pequeno</option>
+    <option>médio</option>
+    <option>grande</option>
+  </select>
+
+  <h3>Município:</h3>
+    <select name="municipio">
+    <option>Vitória</option>
+    <option>Serra</option>
+  </select>
+
+  <h3>Bairro:</h3>
+    <select name="bairro">
+    <option>Barcelona</option>
+    <option>Porto Canoa</option>
+    <option>Mata da Serra</option>
+    <option>Maringá</option>
+    <option>Laranjeiras</option>
+    <option>José de Anchieta</option>
+    <option>Serra Dourada</option>
+  </select>
+
+  <h3>Região:</h3>
+  <p>Escreva abaixo o endereço<br> ou ponto de referência:</p><br>
+   <textarea name="regiao" id="" cols="30" rows="10" style="resize: none">
+   </textarea>
+</div>
+ <input type="submit" value="Cadastrar" class="sub">
+</form>
+ 

@@ -1,0 +1,21 @@
+<div id="cao-page">
+  <a href="/caes">Voltar</a>
+  <a href="/">Página Inicial</a>
+  <div class="container">
+    <h1>Aqui estão os  dados do cão:</h1>
+    <h1>DADOS:</h1><br>
+    COR: {{cao.cor}}<br>
+    PORTE: {{cao.porte}}<br>
+    BAIRRO: {{cao.bairro}}<br>
+    MUNICÍPIO: {{cao.municipio}}<br>
+    REGIÃO: {{cao.região}}
+
+    <div class="actions">
+      <button><a href="/caes/edit/{{cao.id}}">Editar</a></button>
+      <form action="/caes/remove/{{cao.id}}" method="POST">
+       <input type="submit" value="Remover">
+      </form>
+    </div>
+  </div>
+</div>
+

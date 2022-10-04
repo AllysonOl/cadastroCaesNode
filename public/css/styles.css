@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 20px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+}
+
+.container .txt {
+  color: white;
+}
+
+.lost {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #57270f;
+  height: 80px;
+  border-bottom: 2px solid #9acd32;
+}
+
+.bt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #57270f;
+  height: 80px;
+  border-bottom: 5px solid #1e592b;
+}
+.lost button {
+  background-color: #9acd32;
+  width: 120px;
+  margin-left: 20px;
+  padding: 7px;
+  border: none;
+  border-radius: 2%;
+  cursor: pointer;
+}
+
+.lost button a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+.lost button:hover {
+  color: white;
+  background-color: #b87333;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.lost h3 {
+  color: white;
+}
+
+.form-home {
+  border-top: 5px solid #9acd32;
+  border-bottom: 5px solid #9acd32;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin: 0 auto;
+  height: 500px;
+  width: 25%;
+  background-color: #1e592b;
+  color: white;
+}
+
+.form-home select {
+  padding: 8px;
+  width: 100%;
+}
+
+.form-home h3 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.form-home .sub {
+  background-color: #9acd32;
+  color: white;
+  border: none;
+}
+
+.form-home .sub:hover {
+  background-color: #b87333;
+  color: white;
+}
+
+.container .sub {
+  width: 150px;
+  height: 30px;
+  margin-bottom: 10px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#rdp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #57270f;
+  height: 80px;
+  border-top: 2px solid #9acd32;
+}
+
+#rdp h3 {
+  color: white;
+}
+
+#rdp button {
+  background-color: #9acd32;
+  width: 120px;
+  margin-left: 20px;
+  padding: 7px;
+  border: none;
+  border-radius: 2%;
+  cursor: pointer;
+}
+
+#rdp button a {
+  text-decoration: none;
+  color: white;
+}
+
+#rdp button:hover {
+  color: white;
+  background-color: #b87333;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+/*Página de lista */
+
+.cab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #57270f;
+  height: 100%;
+  border-bottom: 2px solid #9acd32; 
+}
+
+.cab .edic {
+  color: #9acd32;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.cab .edic .ID{
+  color:red;
+  font-size: 15px;
+}
+
+
+.cab a {
+  text-decoration: none;
+  color: white;
+  background-color: #9acd32;
+  width: 5%;
+  padding: 5px;
+  text-align: center;
+  margin-right: 25px;
+  width: 120px;
+}
+
+.cab a:hover{
+  color: white;
+  background-color: #b87333;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.caes-container {
+  background-color: #1e592b;
+}
+
+.caes-container .lista {
+  margin-left: 25px;
+  color: wheat;
+}
+
+.lista a {
+  color: #57270f;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.id {
+  font-size: 15px;
+  background-color: #603000;
+  padding: 2px;
+}
+
+.idt {
+  background-color: #1e592b;
+  width: 5%;
+  padding: 2px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #9acd32;
+  border-right: 2px solid #9acd32;
+}
+
+.idt button {
+  background-color: #1e592b;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
+
+.idt button a {
+  color: white;
+}
+
+.idt button:hover {
+  background-color: #9acd32;
+  width: 100%;
+}
+
+.data {
+  background-color: #9acd32;
+  width: 25%;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: #603000;
+}
+
+.data h4 {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.spn {
+  color: #1e592b;
+  padding-left: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+
+
+/*Página de Edição*/
+#cao-page .container {
+  text-align: center;
+}
+
+#cao-page .actions {
+  display: flex;
+  justify-content: center;
+}
