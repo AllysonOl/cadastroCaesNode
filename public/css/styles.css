@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: #1e592b;
 }
 
 h1,
@@ -98,6 +98,7 @@ h2 {
   background-color: #9acd32;
   color: white;
   border: none;
+  cursor: pointer;
 }
 
 .form-home .sub:hover {
@@ -189,9 +190,6 @@ h2 {
   transition: 0.5s;
 }
 
-.caes-container {
-  background-color: #1e592b;
-}
 
 .caes-container .lista {
   margin-left: 25px;
@@ -259,11 +257,33 @@ h2 {
 
 
 /*Página de Edição*/
-#cao-page .container {
-  text-align: center;
+#cao-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #57270f;
+  height: 80px;
+  border-bottom: 2px solid #9acd32;
+  padding-left: 25px;
 }
 
-#cao-page .actions {
-  display: flex;
-  justify-content: center;
+#cao-nav a {
+  text-decoration: none;
+  color: white;
+  background-color: #9acd32;
+  width: 5%;
+  padding: 5px;
+  text-align: center;
+  width: 120px;
+  margin-right: 25px;
 }
+
+
+/* text-decoration: none;
+color: white;
+background-color: #9acd32;
+width: 5%;
+padding: 5px;
+text-align: center;
+margin-right: 25px;
+width: 120px; */
