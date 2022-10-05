@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -176,7 +176,6 @@ h2 {
   text-decoration: none;
   color: white;
   background-color: #9acd32;
-  width: 5%;
   padding: 5px;
   text-align: center;
   margin-right: 25px;
@@ -240,6 +239,7 @@ h2 {
   margin-bottom: 20px;
   padding: 20px;
   color: #603000;
+  height: 230px;
 }
 
 .data h4 {
@@ -278,12 +278,97 @@ h2 {
   margin-right: 25px;
 }
 
+.ced {
+  margin: 0 auto;
+  height: 230px;
+  padding: 20px;
+  background-color: #9acd32;
+  width: 25%;
+  border: 5px solid #57270f;
+}
 
-/* text-decoration: none;
-color: white;
-background-color: #9acd32;
-width: 5%;
-padding: 5px;
-text-align: center;
-margin-right: 25px;
-width: 120px; */
+.ced .dds {
+  color: #1e592b;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.ced .ddsref {
+  font-size: 18px;
+  color: #1e592b;
+  font-weight: bold;
+}
+
+.ced h4 {
+  color: #57270f;
+  padding: 3px;
+}
+ .ref h4{
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.containerx h1 {
+  color:#9acd32;
+  padding-top: 20px;
+  font-size: 45px;
+}
+
+.containerx h2 {
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.containerx .reg {
+  color: #DC143C;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.containerx .edrm  {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 30px;
+}
+
+.edrm button{
+  margin-bottom: 20px;
+  background-color: #1E90FF;
+  text-align: center;
+  width: 120px;
+  border: none;
+  text-transform: uppercase;
+  margin: 0 15px;
+  font-weight: bold;
+}
+  
+.edrm button a {
+  color: white;
+  text-decoration: none;
+}
+
+.edrm button:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: blue;
+}
+
+.edrm input {
+  margin-bottom: 20px;
+  background-color: #DC143C;
+  padding: 5px;
+  text-align: center;
+  width: 120px;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.edrm input:hover {
+  background-color: red;
+}

@@ -2,21 +2,22 @@
   <a href="/">Página Inicial</a>
   <a href="/caes">Voltar</a>
   </div>
-  <div class="container">
-    <h1>Aqui estão os  dados do cão:</h1>
-    <h1>DADOS:</h1><br>
-    COR: {{cao.cor}}<br>
-    PORTE: {{cao.porte}}<br>
-    BAIRRO: {{cao.bairro}}<br>
-    MUNICÍPIO: {{cao.municipio}}<br>
-    REGIÃO: {{cao.região}}
-
-    <div class="actions">
-      <button><a href="/caes/edit/{{cao.id}}">Editar</a></button>
+  <div class="containerx">
+    <h1>O cão foi <span class="reg">resgatado</span> ?</h1> <h2>Remova do banco de dados</h2>
+    <div class="ced">
+      <h4>PORTE: <span class="dds">{{cao.porte}}</span></h4> <hr>
+    <h4>COR: <span class="dds">{{cao.cor}}</span> </h4><hr>
+    <h4>MUNICIPIO:<span class="dds"> {{cao.municipio}}</span></h4><hr>
+    <h4>BAIRRO:<span class="dds">{{cao.bairro}}</span></h4> <hr>
+    <span class="ref"><h4>REFERENCIA:</h4></span>
+      <span class="ddsref">{{cao.região}}</span>
+       </div>
+    <div class="edrm">
+     <button><a href="/caes/edit/{{cao.id}}">Editar</a></button> 
       <form action="/caes/remove/{{cao.id}}" method="POST">
        <input type="submit" value="Remover">
       </form>
+       </div>
     </div>
-  </div>
-</div>
+  
 
