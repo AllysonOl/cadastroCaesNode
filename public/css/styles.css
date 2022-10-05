@@ -256,7 +256,7 @@ h2 {
 
 
 
-/*Página de Edição*/
+/*Página de Remoção do Cadastro*/
 #cao-nav {
   display: flex;
   justify-content: space-between;
@@ -372,3 +372,32 @@ h2 {
 .edrm input:hover {
   background-color: red;
 }
+
+/*Página de Edição do Cadastro*/
+
+.ned {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #57270f;
+  height: 80px;
+  border-bottom: 2px solid #9acd32;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.ned button {
+  background-color: #9acd32;
+  width: 120px;
+  padding: 7px;
+  border: none;
+  border-radius: 2%;
+  cursor: pointer;
+}
+
+.ned a {
+  text-decoration: none;
+  color: white;
+}
+
+

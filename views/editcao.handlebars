@@ -1,14 +1,15 @@
-
+<div class="ned">
 <button><a href="/caes/">Voltar</a></button>
 <button><a href="/">Página Inicial</a></button>
+</div>
 <h1>Edite os dados do cão abandonado/perdido:</h1>
   <h2>Não encontrou os dados por lá? coloque aqui</h2>
 
   <form action="/caes/updatecao" method="POST" class="form">
   <input type="hidden" name="id" value="{{cao.id}}">
   
-  <form action="/caes/" method="POST" class="container">
-<div class="form-home">
+  <form action="/caes/" method="POST" class="containerz">
+    <div class="form-home">
   
   <h3>Cor:</h3>
   <select name="cor">
@@ -21,9 +22,10 @@
  
   <h3>Porte:</h3>
     <select name="porte">
-    <option>pequeno</option>
-    <option>médio</option>
-    <option>grande</option>
+      <option>Filhote</option>
+    <option>Pequeno</option>
+    <option>Médio</option>
+    <option>Grande</option>
   </select>
 
   <h3>Município:</h3>
@@ -41,13 +43,24 @@
     <option>Laranjeiras</option>
     <option>José de Anchieta</option>
     <option>Serra Dourada</option>
+    <option>Nova Carapina</option>
+    <option>Goiabeiras</option>
+    <option>Praia do Canto</option>
+    <option>Mata da Praia</option>
+    <option>Camburi</option>
+    <option>Maruípe</option>
+    <option>Jardim da Penha</option>
   </select>
 
   <h3>Região:</h3>
-  <p>Escreva abaixo o endereço<br> ou ponto de referência:</p><br>
    <textarea name="regiao" id="" cols="30" rows="10" style="resize: none">
    </textarea>
+    <input type="submit" value="Cadastrar" class="sub">
 </div>
- <input type="submit" value="Cadastrar" class="sub">
+
 </form>
  
+ <div  id="rdp">
+    <h3>Procure o seu cão aqui </h3>
+      <button><a href="/caes/">Lista de cães</a></button>  
+</div>
