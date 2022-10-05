@@ -20,7 +20,7 @@ h2 {
 .container {
   display: flex;
   flex-direction: column;
-  height: 700px;
+  height: 800px;
 }
 
 .container .txt {
@@ -62,7 +62,7 @@ h2 {
 
 .lost button:hover {
   color: white;
-  background-color: #b87333;
+  background-color: #1e592b;
   font-weight: bold;
   transition: 0.5s;
 }
@@ -72,16 +72,13 @@ h2 {
 }
 
 .form-home {
-  border-top: 5px solid #9acd32;
-  border-bottom: 5px solid #9acd32;
   display: flex;
   flex-direction: column;
-  padding: 15px;
-  margin: 0 auto;
-  height: 500px;
   width: 25%;
-  background-color: #1e592b;
-  color: white;
+  margin: 0 auto;
+  color: #57270f;
+  padding: 30px;
+  background-color:#9acd32 ;
 }
 
 .form-home select {
@@ -94,19 +91,26 @@ h2 {
   margin-top: 5px;
 }
 
-.form-home .sub {
-  background-color: #9acd32;
-  color: white;
-  border: none;
-  cursor: pointer;
+.form-homex {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  color: #57270f;
+  padding: 30px;
+  background-color:#9acd32 ; 
 }
 
-.form-home .sub:hover {
-  background-color: #b87333;
+
+ 
+
+.form-home .subz:hover {
+  background-color: green;
   color: white;
 }
 
-.container .sub {
+.container .subz {
   width: 150px;
   height: 30px;
   margin-bottom: 10px;
@@ -144,7 +148,7 @@ h2 {
 
 #rdp button:hover {
   color: white;
-  background-color: #b87333;
+  background-color: #1e592b;
   font-weight: bold;
   transition: 0.5s;
 }
@@ -184,7 +188,7 @@ h2 {
 
 .cab a:hover{
   color: white;
-  background-color: #b87333;
+  background-color: #1e592b;
   font-weight: bold;
   transition: 0.5s;
 }
@@ -276,6 +280,11 @@ h2 {
   text-align: center;
   width: 120px;
   margin-right: 25px;
+}
+
+#cao-nav a:hover {
+  background-color: #1e592b;
+  font-weight: bold;
 }
 
 .ced {
@@ -400,4 +409,47 @@ h2 {
   color: white;
 }
 
+.ned button:hover {
+  background-color: #1e592b;
+  font-weight: bold;
+}
+
+.containerz .form-home{
+  display: flex;
+  justify-content: center;
+}
+.form-home {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  color: #57270f;
+  padding: 30px;
+  background-color:#9acd32 ;
+  
+  
+}
+
+.form-home select {
+  padding: 8px;
+  width: 100%;
+}
+
+.form-home input {
+  background-color: #1e592b;
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  justify-content: center;
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.form-home input:hover{
+  background-color: green;
+}
 
