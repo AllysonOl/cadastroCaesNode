@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #1e592b;
+  background-color: 	#FFFFF0;
 }
 
 h1,
@@ -24,26 +24,19 @@ h2 {
 }
 
 .container .txt {
-  color: white;
+  color: #1e592b;
 }
 
 .lost {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #57270f;
+  background-color: #1e592b;
   height: 80px;
   border-bottom: 2px solid #9acd32;
 }
 
-.bt {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #57270f;
-  height: 80px;
-  border-bottom: 5px solid #1e592b;
-}
+
 .lost button {
   background-color: #9acd32;
   width: 120px;
@@ -57,29 +50,22 @@ h2 {
 .lost button a {
   text-decoration: none;
   color: white;
-  
 }
 
 .lost button:hover {
   color: white;
-  background-color: #1e592b;
-  font-weight: bold;
-  transition: 0.5s;
+  background-color: #90EE90;
 }
 
 .lost h3 {
   color: white;
 }
 
-.form-home {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
-  margin: 0 auto;
-  color: #57270f;
-  padding: 30px;
-  background-color:#9acd32 ;
+.ped {
+  color: #DC143C;
+  text-transform: uppercase;
 }
+
 
 .form-home select {
   padding: 8px;
@@ -89,21 +75,9 @@ h2 {
 .form-home h3 {
   margin-bottom: 5px;
   margin-top: 5px;
+  color: white;
 }
 
-.form-homex {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
-  margin: 0 auto;
-  margin-bottom: 70px;
-  color: #57270f;
-  padding: 30px;
-  background-color:#9acd32 ; 
-}
-
-
- 
 
 .form-home .subz:hover {
   background-color: green;
@@ -122,7 +96,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #57270f;
+  background-color: #1e592b;
   height: 80px;
   border-top: 2px solid #9acd32;
 }
@@ -137,7 +111,6 @@ h2 {
   margin-left: 20px;
   padding: 7px;
   border: none;
-  border-radius: 2%;
   cursor: pointer;
 }
 
@@ -148,9 +121,7 @@ h2 {
 
 #rdp button:hover {
   color: white;
-  background-color: #1e592b;
-  font-weight: bold;
-  transition: 0.5s;
+  background-color: #90EE90;
 }
 
 /*Página de lista */
@@ -159,8 +130,8 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #57270f;
-  height: 100%;
+  background-color: #1e592b;
+  height: 90px;
   border-bottom: 2px solid #9acd32; 
 }
 
@@ -188,15 +159,12 @@ h2 {
 
 .cab a:hover{
   color: white;
-  background-color: #1e592b;
-  font-weight: bold;
-  transition: 0.5s;
+  background-color: #90EE90;
 }
 
 
-.caes-container .lista {
-  margin-left: 25px;
-  color: wheat;
+.caes-container {
+  margin-left: 70px;
 }
 
 .lista a {
@@ -208,24 +176,23 @@ h2 {
 
 .id {
   font-size: 15px;
-  background-color: #603000;
+  background-color: #1e592b;
   padding: 2px;
 }
 
 .idt {
   background-color: #1e592b;
-  width: 5%;
+  width: 10%;
   padding: 2px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid #9acd32;
-  border-right: 2px solid #9acd32;
+  margin-bottom: 2px;
 }
 
 .idt button {
   background-color: #1e592b;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
   border: none;
+  width: 100%;
 }
 
 .idt button a {
@@ -233,8 +200,7 @@ h2 {
 }
 
 .idt button:hover {
-  background-color: #9acd32;
-  width: 100%;
+  background-color: #90EE90;
 }
 
 .data {
@@ -242,7 +208,7 @@ h2 {
   width: 25%;
   margin-bottom: 20px;
   padding: 20px;
-  color: #603000;
+  color: #1e592b;
   height: 230px;
 }
 
@@ -252,7 +218,7 @@ h2 {
 }
 
 .spn {
-  color: #1e592b;
+  color: #57270f;
   padding-left: 10px;
   font-size: 15px;
   text-transform: uppercase;
@@ -265,7 +231,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #57270f;
+  background-color: #1e592b;
   height: 80px;
   border-bottom: 2px solid #9acd32;
   padding-left: 25px;
@@ -283,8 +249,7 @@ h2 {
 }
 
 #cao-nav a:hover {
-  background-color: #1e592b;
-  font-weight: bold;
+  background-color: #90EE90;
 }
 
 .ced {
@@ -293,23 +258,26 @@ h2 {
   padding: 20px;
   background-color: #9acd32;
   width: 25%;
-  border: 5px solid #57270f;
+  border: 5px solid #1e592b;
 }
 
 .ced .dds {
-  color: #1e592b;
+  color: #57270f;
   text-transform: uppercase;
-  padding-left: 10px;
+  padding-left: 15px;
+  font-size: 13px;
 }
 
 .ced .ddsref {
-  font-size: 18px;
-  color: #1e592b;
+  color: #57270f;
   font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding-left: 20px;
 }
 
 .ced h4 {
-  color: #57270f;
+  color: #1e592b;
   padding: 3px;
 }
  .ref h4{
@@ -318,13 +286,13 @@ h2 {
 }
 
 .containerx h1 {
-  color:#9acd32;
+  color:#1e592b;
   padding-top: 20px;
   font-size: 45px;
 }
 
 .containerx h2 {
-  color: white;
+  color: #1e592b;
   margin-bottom: 10px;
   margin-top: 40px;
 }
@@ -340,6 +308,7 @@ h2 {
   justify-content: center;
   flex-direction: row;
   padding-top: 30px;
+  padding-bottom: 37px;
 }
 
 .edrm button{
@@ -378,6 +347,13 @@ h2 {
   font-weight: bold;
 }
 
+#rdpx {
+  background-color: #1e592b;
+  height: 80px;
+  border-top: 2px solid #9acd32; 
+}
+
+
 .edrm input:hover {
   background-color: red;
 }
@@ -388,7 +364,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #57270f;
+  background-color: #1e592b;
   height: 80px;
   border-bottom: 2px solid #9acd32;
   padding-left: 25px;
@@ -410,10 +386,12 @@ h2 {
 }
 
 .ned button:hover {
-  background-color: #1e592b;
-  font-weight: bold;
+  background-color: #90EE90;
 }
 
+.end {
+  color: #1e592b;
+}
 .containerz .form-home{
   display: flex;
   justify-content: center;
@@ -424,11 +402,8 @@ h2 {
   width: 25%;
   margin: 0 auto;
   margin-bottom: 70px;
-  color: #57270f;
   padding: 30px;
-  background-color:#9acd32 ;
-  
-  
+  background-color: #1e592b ;
 }
 
 .form-home select {
@@ -437,19 +412,22 @@ h2 {
 }
 
 .form-home input {
-  background-color: #1e592b;
+  font-weight: bold;
   margin-top: 15px;
   padding: 10px;
   border: none;
-  color: white;
+  background-color: #1e592b;
   text-transform: uppercase;
   justify-content: center;
   display: flex;
   margin-left: 20%;
   margin-right: 20%;
+  cursor: pointer;
+  color: white;
+  background-color: #9acd32;
 }
 
 .form-home input:hover{
-  background-color: green;
-}
+  background-color: #90EE90;
+ }
 
