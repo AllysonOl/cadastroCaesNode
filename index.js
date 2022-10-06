@@ -24,13 +24,14 @@ app.post('/caes', (req,res) => {
 
 
   const cor = req.body.cor
+  const sexo = req.body.sexo
   const porte = req.body.porte
   const municipio = req.body.municipio
   const bairro = req.body.bairro
   const regiao = req.body.regiao
 
-  const sql = `INSERT INTO caracteristicas (cor, porte, municipio, bairro, região) VALUES 
-                ('${cor}', '${porte}', '${municipio}', '${bairro}', '${regiao}')`
+  const sql = `INSERT INTO caracteristicas (cor, sexo, porte, municipio, bairro, região) VALUES 
+                ('${cor}', '${sexo}', '${porte}', '${municipio}', '${bairro}', '${regiao}')`
 
   conn.query(sql, function(err) {
     if(err) {
@@ -100,12 +101,13 @@ app.post('/caes/updatecao', (req,res) => {
   
   const id = req.body.id
   const cor = req.body.cor
+  const sexo = req.body.sexo
   const porte = req.body.porte
   const municipio = req.body.municipio
   const bairro = req.body.bairro
   const regiao = req.body.regiao
   
-const sql = `UPDATE caracteristicas SET cor = '${cor}', porte = '${porte}', 
+const sql = `UPDATE caracteristicas SET cor = '${cor}', sexo = '${sexo}', porte = '${porte}', 
             municipio = '${municipio}', bairro = '${bairro}', região = '${regiao}' 
             WHERE id = ${id}`
 
